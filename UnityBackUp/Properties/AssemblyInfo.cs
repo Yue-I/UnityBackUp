@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("UnityBackUp")]
-[assembly: AssemblyCopyright("Copyright © Key_ 2021")]
+[assembly: AssemblyCopyright("Copyright © Yue_ 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -111,7 +111,7 @@ namespace UnityBackUp
                         //進行ダイアログを閉じる
                         pd.Close();
 
-                        MessageBox.Show("コピーが完了しました。", "警告", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBox.Show("コピーが完了しました。", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
                         zipDialog = MessageBox.Show("続けてzipファイルを生成しますか？", "zipの生成", MessageBoxButtons.OKCancel, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
@@ -125,19 +125,19 @@ namespace UnityBackUp
                             DirectoryDelete($"{@fdDialog.SelectedPath}/{result}({Directry})_UnityBA");
                             //進行ダイアログを閉じる
                             zippd.Close();
-                            MessageBox.Show("Zipが生成されました。", "インファメーション", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                            MessageBox.Show("Zipが生成されました。", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                         }
                     }
                     else
                     {
-                        MessageBox.Show("キャンセルされました。", "インファメーション", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                        MessageBox.Show("キャンセルされました。", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                     }
                     //オブジェクト破棄
                     fdDialog.Dispose();
                 }
                 else
                 {
-                    MessageBox.Show("キャンセルされました。", "インファメーション", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                    MessageBox.Show("キャンセルされました。", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
                     fdDialog_D.Dispose();
                 }
 
@@ -337,7 +337,7 @@ namespace UnityBackUp
         }
         public void CancelMessage()
         {
-            MessageBox.Show("キャンセルされました", "警告", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+            MessageBox.Show("キャンセルされました", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
             Application.Restart();
 
         }

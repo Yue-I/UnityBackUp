@@ -52,9 +52,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.Location = new System.Drawing.Point(15, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 16);
+            this.label1.Size = new System.Drawing.Size(346, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "©Copyright 2021 Key_  All Rights Reserved.";
+            this.label1.Text = "©Copyright 2021 Yue All Rights Reserved.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label2
